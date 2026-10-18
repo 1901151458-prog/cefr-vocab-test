@@ -73,9 +73,12 @@ git push -u origin main
 
 ## 数据与依据
 
-- **词条级别**：参考 [Cambridge Dictionary](https://dictionary.cambridge.org/) 单词条目的 CEFR 标注（A1–C2）与 [English Vocabulary Profile (EVP)](https://www.englishprofile.org/english-vocabulary-profile) 的分级词表；中文释义取常用义项。
-- **干扰项**：取同级别其它词的释义，减少“一眼排除”；“无正确含义题”的选项不含该词正确释义。
+- **词条级别**：参考 [Cambridge Dictionary](https://dictionary.cambridge.org/) 单词条目的 CEFR 标注（A1–C2）与 [English Vocabulary Profile (EVP)](https://www.englishprofile.org/english-vocabulary-profile) 的分级词表；中文释义取常用义项，并已按内容审核补全多义词（如 campaign、capacity、sophisticated、vicissitude 等）。
+- **干扰项**：取同级别其它词的释义，用于快速区分词义；“无正确含义题”的选项不含该词正确释义。需要注意：干扰项与本词语义不相关时，部分题目可通过排除法作答，这是本测试的已知局限。
 - **能力描述**：改写自 [CEFR 官方框架](https://www.coe.int/en/web/common-european-framework-reference-languages) 的等级描述与自评量表。
-- **局限**：快速抽样测试，抽样误差约 ±10%；认识单词不等于能运用；不适合替代标准化考试。
+- **已知局限**：
+  - 快速抽样测试，抽样误差约 ±10%；认识单词不等于能运用；不适合替代标准化考试或剑桥官方评级。
+  - “无正确含义题”固定出现在每级第 4/9/14/19 题（这是与线下纸质卷一致的固定题型设计），知道规律的人可能据此作答；答案 A–C 的位置已在题库中打乱并尽量均衡，但仍建议教师不要提前说明题型规律。
+  - 个别词条的 CEFR 级别在不同词表/词典版本间可能相差一级，词条级别为参考值，欢迎按 Cambridge Dictionary 复核后调整。
 - 答题进度、复测记录仅保存在浏览器 `localStorage`，不上传服务器。
-- 版本：v1.0（2026-10）。可自由用于教学/自测，请保留说明。
+- 版本：v1.1（2026-10，含释义与选项修订）。可自由用于教学/自测，请保留说明。
