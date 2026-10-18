@@ -34,9 +34,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "水",
           "opts": [
-            "朋友",
+            "大的",
             "水",
-            "大的"
+            "朋友"
           ],
           "ans": 1,
           "trap": false
@@ -47,11 +47,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "书",
           "opts": [
-            "吃",
+            "书",
             "冷的",
-            "书"
+            "吃"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         },
         {
@@ -60,11 +60,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "椅子",
           "opts": [
-            "椅子",
             "孩子",
+            "椅子",
             "学校"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -73,9 +73,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "家庭",
           "opts": [
-            "教师",
             "喝",
-            "苹果"
+            "苹果",
+            "教师"
           ],
           "ans": -1,
           "trap": true
@@ -99,11 +99,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "学校",
           "opts": [
+            "早晨",
             "学校",
-            "水",
-            "早晨"
+            "水"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -112,11 +112,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "教师",
           "opts": [
-            "高兴的",
             "教师",
+            "高兴的",
             "走路"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -125,11 +125,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "早晨",
           "opts": [
-            "听",
             "书",
-            "早晨"
+            "早晨",
+            "听"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -138,8 +138,8 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "高兴的",
           "opts": [
-            "椅子",
             "小的",
+            "椅子",
             "打开"
           ],
           "ans": -1,
@@ -151,11 +151,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "小的",
           "opts": [
-            "大的",
             "小的",
-            "打开"
+            "打开",
+            "大的"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -164,8 +164,8 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "大的",
           "opts": [
-            "冷的",
             "家庭",
+            "冷的",
             "大的"
           ],
           "ans": 2,
@@ -177,11 +177,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "吃",
           "opts": [
-            "吃",
             "朋友",
+            "吃",
             "大的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -190,11 +190,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "喝",
           "opts": [
-            "吃",
             "喝",
+            "吃",
             "孩子"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -216,11 +216,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "走路",
           "opts": [
-            "走路",
             "教师",
-            "喝"
+            "喝",
+            "走路"
           ],
-          "ans": 0,
+          "ans": 2,
           "trap": false
         },
         {
@@ -229,11 +229,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "听",
           "opts": [
-            "睡觉",
             "听",
+            "睡觉",
             "水"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -242,8 +242,8 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "打开",
           "opts": [
-            "书",
             "早晨",
+            "书",
             "打开"
           ],
           "ans": 2,
@@ -255,11 +255,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "冷的",
           "opts": [
-            "冷的",
             "高兴的",
-            "走路"
+            "走路",
+            "冷的"
           ],
-          "ans": 0,
+          "ans": 2,
           "trap": false
         },
         {
@@ -268,8 +268,8 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "孩子",
           "opts": [
-            "听",
             "椅子",
+            "听",
             "小的"
           ],
           "ans": -1,
@@ -281,11 +281,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "苹果",
           "opts": [
+            "苹果",
             "家庭",
-            "小的",
-            "苹果"
+            "小的"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         }
       ]
@@ -309,11 +309,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "旅行",
           "opts": [
+            "旅行",
             "描述",
-            "计划",
-            "旅行"
+            "计划"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         },
         {
@@ -322,22 +322,22 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "天气",
           "opts": [
-            "天气",
             "健康",
+            "天气",
             "旅行"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
           "n": 3,
           "w": "holiday",
           "pos": "n.",
-          "meaning": "假日",
+          "meaning": "假日；假期",
           "opts": [
-            "天气",
-            "假日",
-            "邀请"
+            "邀请",
+            "假日；假期",
+            "天气"
           ],
           "ans": 1,
           "trap": false
@@ -348,9 +348,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "药",
           "opts": [
+            "锻炼；练习",
             "决定",
-            "锻炼",
-            "假日"
+            "假日；假期"
           ],
           "ans": -1,
           "trap": true
@@ -362,8 +362,8 @@ var VT_DATA = {
           "meaning": "小心的",
           "opts": [
             "小心的",
-            "消息",
-            "假日"
+            "消息；信息",
+            "假日；假期"
           ],
           "ans": 0,
           "trap": false
@@ -375,21 +375,21 @@ var VT_DATA = {
           "meaning": "危险的",
           "opts": [
             "药",
-            "危险的",
-            "到达"
+            "到达",
+            "危险的"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
           "n": 7,
           "w": "borrow",
           "pos": "v.",
-          "meaning": "借入",
+          "meaning": "借入；借用",
           "opts": [
-            "昂贵的",
             "语言",
-            "借入"
+            "昂贵的",
+            "借入；借用"
           ],
           "ans": 2,
           "trap": false
@@ -400,11 +400,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "描述",
           "opts": [
-            "描述",
+            "小心的",
             "修理",
-            "小心的"
+            "描述"
           ],
-          "ans": 0,
+          "ans": 2,
           "trap": false
         },
         {
@@ -413,9 +413,9 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "邀请",
           "opts": [
-            "危险的",
             "安静的",
-            "代替"
+            "危险的",
+            "代替；反而"
           ],
           "ans": -1,
           "trap": true
@@ -426,11 +426,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "决定",
           "opts": [
-            "计划",
-            "代替",
-            "决定"
+            "代替；反而",
+            "决定",
+            "计划"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -439,11 +439,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "到达",
           "opts": [
-            "到达",
             "旅行",
-            "借入"
+            "借入；借用",
+            "到达"
           ],
-          "ans": 0,
+          "ans": 2,
           "trap": false
         },
         {
@@ -453,10 +453,10 @@ var VT_DATA = {
           "meaning": "昂贵的",
           "opts": [
             "描述",
-            "昂贵的",
-            "健康"
+            "健康",
+            "昂贵的"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
@@ -465,11 +465,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "安静的",
           "opts": [
-            "锻炼",
             "天气",
-            "安静的"
+            "安静的",
+            "锻炼；练习"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -478,9 +478,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "计划",
           "opts": [
-            "假日",
+            "消息；信息",
             "邀请",
-            "消息"
+            "假日；假期"
           ],
           "ans": -1,
           "trap": true
@@ -492,36 +492,36 @@ var VT_DATA = {
           "meaning": "健康",
           "opts": [
             "决定",
-            "健康",
-            "消息"
+            "消息；信息",
+            "健康"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
           "n": 16,
           "w": "exercise",
           "pos": "n.",
-          "meaning": "锻炼",
+          "meaning": "锻炼；练习",
           "opts": [
-            "语言",
             "药",
-            "锻炼"
+            "锻炼；练习",
+            "语言"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
           "n": 17,
           "w": "message",
           "pos": "n.",
-          "meaning": "消息",
+          "meaning": "消息；信息",
           "opts": [
-            "消息",
             "小心的",
+            "消息；信息",
             "到达"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -530,11 +530,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "语言",
           "opts": [
-            "昂贵的",
             "语言",
+            "昂贵的",
             "修理"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -543,9 +543,9 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "修理",
           "opts": [
-            "代替",
             "危险的",
-            "安静的"
+            "安静的",
+            "代替；反而"
           ],
           "ans": -1,
           "trap": true
@@ -554,13 +554,13 @@ var VT_DATA = {
           "n": 20,
           "w": "instead",
           "pos": "adv.",
-          "meaning": "代替",
+          "meaning": "代替；反而",
           "opts": [
-            "代替",
-            "借入",
+            "借入；借用",
+            "代替；反而",
             "安静的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         }
       ]
@@ -582,9 +582,9 @@ var VT_DATA = {
           "n": 1,
           "w": "achieve",
           "pos": "v.",
-          "meaning": "实现",
+          "meaning": "实现；达到",
           "opts": [
-            "实现",
+            "实现；达到",
             "建议",
             "比较"
           ],
@@ -597,11 +597,11 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "优势",
           "opts": [
-            "交流",
             "优势",
-            "经验"
+            "交流；沟通",
+            "经验；经历"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -611,10 +611,10 @@ var VT_DATA = {
           "meaning": "机会",
           "opts": [
             "解释",
-            "准备",
-            "机会"
+            "机会",
+            "准备"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -623,9 +623,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "环境",
           "opts": [
-            "保护",
+            "改善；提高",
             "文化",
-            "改善"
+            "保护"
           ],
           "ans": -1,
           "trap": true
@@ -634,13 +634,13 @@ var VT_DATA = {
           "n": 5,
           "w": "experience",
           "pos": "n.",
-          "meaning": "经验",
+          "meaning": "经验；经历",
           "opts": [
+            "改善；提高",
             "收到",
-            "经验",
-            "改善"
+            "经验；经历"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
@@ -660,11 +660,11 @@ var VT_DATA = {
           "n": 7,
           "w": "improve",
           "pos": "v.",
-          "meaning": "改善",
+          "meaning": "改善；提高",
           "opts": [
-            "改善",
+            "改善；提高",
             "支持",
-            "实现"
+            "实现；达到"
           ],
           "ans": 0,
           "trap": false
@@ -676,10 +676,10 @@ var VT_DATA = {
           "meaning": "意见",
           "opts": [
             "优势",
-            "意见",
-            "提供"
+            "提供",
+            "意见"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
@@ -688,9 +688,9 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "提供",
           "opts": [
-            "减少",
             "可能的",
-            "机会"
+            "机会",
+            "减少"
           ],
           "ans": -1,
           "trap": true
@@ -701,11 +701,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "减少",
           "opts": [
-            "减少",
             "比较",
-            "机会"
+            "机会",
+            "减少"
           ],
-          "ans": 0,
+          "ans": 2,
           "trap": false
         },
         {
@@ -714,9 +714,9 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "建议",
           "opts": [
-            "环境",
+            "减少",
             "建议",
-            "减少"
+            "环境"
           ],
           "ans": 1,
           "trap": false
@@ -727,8 +727,8 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "准备",
           "opts": [
+            "交流；沟通",
             "建议",
-            "交流",
             "准备"
           ],
           "ans": 2,
@@ -741,8 +741,8 @@ var VT_DATA = {
           "meaning": "保护",
           "opts": [
             "保护",
-            "文化",
-            "经验"
+            "经验；经历",
+            "文化"
           ],
           "ans": 0,
           "trap": false
@@ -753,9 +753,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "解决办法",
           "opts": [
-            "解释",
+            "收到",
             "准备",
-            "收到"
+            "解释"
           ],
           "ans": -1,
           "trap": true
@@ -780,8 +780,8 @@ var VT_DATA = {
           "meaning": "可能的",
           "opts": [
             "可能的",
-            "实现",
-            "改善"
+            "实现；达到",
+            "改善；提高"
           ],
           "ans": 0,
           "trap": false
@@ -792,24 +792,24 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "比较",
           "opts": [
+            "解决办法",
             "意见",
-            "比较",
-            "解决办法"
+            "比较"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
           "n": 18,
           "w": "communicate",
           "pos": "v.",
-          "meaning": "交流",
+          "meaning": "交流；沟通",
           "opts": [
+            "交流；沟通",
             "支持",
-            "优势",
-            "交流"
+            "优势"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         },
         {
@@ -831,11 +831,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "收到",
           "opts": [
-            "减少",
             "收到",
-            "可能的"
+            "可能的",
+            "减少"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         }
       ]
@@ -859,11 +859,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "准确的",
           "opts": [
-            "相关的",
             "准确的",
-            "容量"
+            "容量；能力",
+            "相关的"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -872,24 +872,24 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "预算",
           "opts": [
+            "预算",
             "准确的",
-            "灵活的",
-            "预算"
+            "灵活的"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         },
         {
           "n": 3,
           "w": "campaign",
           "pos": "n.",
-          "meaning": "运动；活动",
+          "meaning": "运动（宣传/竞选）",
           "opts": [
-            "运动；活动",
             "产生",
-            "重要的"
+            "重要的",
+            "运动（宣传/竞选）"
           ],
-          "ans": 0,
+          "ans": 2,
           "trap": false
         },
         {
@@ -898,8 +898,8 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "后果",
           "opts": [
-            "策略",
             "预算",
+            "策略",
             "识别"
           ],
           "ans": -1,
@@ -911,8 +911,8 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "高效的",
           "opts": [
-            "运动；活动",
             "识别",
+            "运动（宣传/竞选）",
             "高效的"
           ],
           "ans": 2,
@@ -925,7 +925,7 @@ var VT_DATA = {
           "meaning": "估计",
           "opts": [
             "估计",
-            "解释（含义）",
+            "解释；口译",
             "调查"
           ],
           "ans": 0,
@@ -937,9 +937,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "证据",
           "opts": [
-            "威胁",
+            "后果",
             "证据",
-            "后果"
+            "威胁"
           ],
           "ans": 1,
           "trap": false
@@ -951,7 +951,7 @@ var VT_DATA = {
           "meaning": "灵活的",
           "opts": [
             "高效的",
-            "谈判",
+            "谈判；协商",
             "灵活的"
           ],
           "ans": 2,
@@ -976,37 +976,37 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "识别",
           "opts": [
-            "容量",
-            "识别",
-            "估计"
+            "容量；能力",
+            "估计",
+            "识别"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
           "n": 11,
           "w": "interpret",
           "pos": "v.",
-          "meaning": "解释（含义）",
+          "meaning": "解释；口译",
           "opts": [
             "证据",
-            "相关的",
-            "解释（含义）"
+            "解释；口译",
+            "相关的"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
           "n": 12,
           "w": "negotiate",
           "pos": "v.",
-          "meaning": "谈判",
+          "meaning": "谈判；协商",
           "opts": [
-            "谈判",
             "重要的",
+            "谈判；协商",
             "准确的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1015,11 +1015,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "潜在的",
           "opts": [
-            "预算",
             "潜在的",
-            "灵活的"
+            "灵活的",
+            "预算"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -1030,7 +1030,7 @@ var VT_DATA = {
           "opts": [
             "产生",
             "策略",
-            "运动；活动"
+            "运动（宣传/竞选）"
           ],
           "ans": -1,
           "trap": true
@@ -1043,7 +1043,7 @@ var VT_DATA = {
           "opts": [
             "重要的",
             "调查",
-            "运动；活动"
+            "运动（宣传/竞选）"
           ],
           "ans": 0,
           "trap": false
@@ -1054,9 +1054,9 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "策略",
           "opts": [
-            "后果",
+            "识别",
             "策略",
-            "识别"
+            "后果"
           ],
           "ans": 1,
           "trap": false
@@ -1067,8 +1067,8 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "调查",
           "opts": [
-            "解释（含义）",
             "威胁",
+            "解释；口译",
             "调查"
           ],
           "ans": 2,
@@ -1080,11 +1080,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "威胁",
           "opts": [
+            "高效的",
             "威胁",
-            "转变",
-            "高效的"
+            "转变"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1093,9 +1093,9 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "转变",
           "opts": [
-            "估计",
-            "谈判",
-            "容量"
+            "谈判；协商",
+            "容量；能力",
+            "估计"
           ],
           "ans": -1,
           "trap": true
@@ -1104,13 +1104,13 @@ var VT_DATA = {
           "n": 20,
           "w": "capacity",
           "pos": "n.",
-          "meaning": "容量",
+          "meaning": "容量；能力",
           "opts": [
-            "潜在的",
+            "容量；能力",
             "转变",
-            "容量"
+            "潜在的"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         }
       ]
@@ -1147,11 +1147,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "连贯的",
           "opts": [
-            "连贯的",
             "恶化",
-            "操纵"
+            "操纵",
+            "连贯的"
           ],
-          "ans": 0,
+          "ans": 2,
           "trap": false
         },
         {
@@ -1161,10 +1161,10 @@ var VT_DATA = {
           "meaning": "全面的",
           "opts": [
             "似乎合理的",
-            "全面的",
-            "普遍的"
+            "普遍的",
+            "全面的"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
@@ -1174,8 +1174,8 @@ var VT_DATA = {
           "meaning": "有争议的",
           "opts": [
             "仔细审查",
-            "夸大",
-            "初步的"
+            "初步的",
+            "夸大"
           ],
           "ans": -1,
           "trap": true
@@ -1186,11 +1186,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "恶化",
           "opts": [
+            "初步的",
             "恶化",
-            "可行的",
-            "初步的"
+            "可行的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1199,11 +1199,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "夸大",
           "opts": [
+            "巩固",
             "强健的；稳健的",
-            "夸大",
-            "巩固"
+            "夸大"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
@@ -1212,11 +1212,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "可行的",
           "opts": [
-            "模棱两可的",
             "实施",
-            "可行的"
+            "可行的",
+            "模棱两可的"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1225,11 +1225,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "实施",
           "opts": [
-            "实施",
             "不可避免的",
-            "复杂精密的"
+            "实施",
+            "复杂精密的；老练的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1238,9 +1238,9 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "不可避免的",
           "opts": [
-            "削弱",
             "连贯的",
-            "整合"
+            "整合",
+            "削弱"
           ],
           "ans": -1,
           "trap": true
@@ -1251,11 +1251,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "整合",
           "opts": [
-            "全面的",
+            "整合",
             "不可避免的",
-            "整合"
+            "全面的"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         },
         {
@@ -1277,11 +1277,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "似乎合理的",
           "opts": [
-            "普遍的",
             "似乎合理的",
-            "有争议的"
+            "有争议的",
+            "普遍的"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -1291,10 +1291,10 @@ var VT_DATA = {
           "meaning": "初步的",
           "opts": [
             "恶化",
-            "操纵",
-            "初步的"
+            "初步的",
+            "操纵"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1303,9 +1303,9 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "强健的；稳健的",
           "opts": [
+            "夸大",
             "似乎合理的",
-            "仔细审查",
-            "夸大"
+            "仔细审查"
           ],
           "ans": -1,
           "trap": true
@@ -1314,13 +1314,13 @@ var VT_DATA = {
           "n": 15,
           "w": "sophisticated",
           "pos": "adj.",
-          "meaning": "复杂精密的",
+          "meaning": "复杂精密的；老练的",
           "opts": [
+            "复杂精密的；老练的",
             "巩固",
-            "复杂精密的",
             "夸大"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -1329,11 +1329,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "削弱",
           "opts": [
-            "可行的",
+            "削弱",
             "初步的",
-            "削弱"
+            "可行的"
           ],
-          "ans": 2,
+          "ans": 0,
           "trap": false
         },
         {
@@ -1342,11 +1342,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "令人信服的",
           "opts": [
-            "令人信服的",
             "强健的；稳健的",
+            "令人信服的",
             "模棱两可的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1355,11 +1355,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "普遍的",
           "opts": [
-            "连贯的",
             "普遍的",
+            "连贯的",
             "实施"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
@@ -1368,8 +1368,8 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "仔细审查",
           "opts": [
+            "复杂精密的；老练的",
             "不可避免的",
-            "复杂精密的",
             "全面的"
           ],
           "ans": -1,
@@ -1381,11 +1381,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "巩固",
           "opts": [
-            "巩固",
             "削弱",
+            "巩固",
             "全面的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         }
       ]
@@ -1409,11 +1409,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "深奥难懂的",
           "opts": [
+            "过分讲究的",
             "深奥难懂的",
-            "热心的",
-            "过分讲究的"
+            "热心的；狂热的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1435,11 +1435,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "有说服力的",
           "opts": [
-            "顽抗的",
             "深奥难懂的",
-            "有说服力的"
+            "有说服力的",
+            "顽抗的"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1448,9 +1448,9 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "兼收并蓄的",
           "opts": [
+            "伪善的",
             "反复无常的",
-            "并置",
-            "伪善的"
+            "并置"
           ],
           "ans": -1,
           "trap": true
@@ -1461,9 +1461,9 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "短暂的",
           "opts": [
-            "宽宏大量的",
+            "伪善的",
             "短暂的",
-            "伪善的"
+            "宽宏大量的"
           ],
           "ans": 1,
           "trap": false
@@ -1487,11 +1487,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "过分讲究的",
           "opts": [
-            "过分讲究的",
             "兼收并蓄的",
+            "过分讲究的",
             "使模糊"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1500,9 +1500,9 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "独特的",
           "opts": [
-            "吝啬的",
+            "（人生的）变迁；兴衰",
             "独特的",
-            "变迁"
+            "吝啬的"
           ],
           "ans": 1,
           "trap": false
@@ -1513,9 +1513,9 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "并置",
           "opts": [
-            "无处不在的",
+            "敷衍的",
             "短暂的",
-            "敷衍的"
+            "无处不在的"
           ],
           "ans": -1,
           "trap": true
@@ -1526,11 +1526,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "宽宏大量的",
           "opts": [
+            "敷衍的",
             "宽宏大量的",
-            "只有内行才懂的",
-            "敷衍的"
+            "只有内行才懂的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1539,11 +1539,11 @@ var VT_DATA = {
           "pos": "v.",
           "meaning": "使模糊",
           "opts": [
+            "热心的；狂热的",
             "典型的",
-            "使模糊",
-            "热心的"
+            "使模糊"
           ],
-          "ans": 1,
+          "ans": 2,
           "trap": false
         },
         {
@@ -1552,8 +1552,8 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "吝啬的",
           "opts": [
-            "深奥难懂的",
             "过分讲究的",
+            "深奥难懂的",
             "吝啬的"
           ],
           "ans": 2,
@@ -1565,11 +1565,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "敷衍的",
           "opts": [
+            "顽抗的",
             "敷衍的",
-            "独特的",
-            "顽抗的"
+            "独特的"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1578,8 +1578,8 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "典型的",
           "opts": [
-            "伪善的",
             "反复无常的",
+            "伪善的",
             "并置"
           ],
           "ans": -1,
@@ -1592,10 +1592,10 @@ var VT_DATA = {
           "meaning": "顽抗的",
           "opts": [
             "有说服力的",
-            "并置",
-            "顽抗的"
+            "顽抗的",
+            "并置"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1604,11 +1604,11 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "伪善的",
           "opts": [
-            "伪善的",
             "宽宏大量的",
+            "伪善的",
             "意外的好运"
           ],
-          "ans": 0,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1617,24 +1617,24 @@ var VT_DATA = {
           "pos": "n.",
           "meaning": "意外的好运",
           "opts": [
-            "变迁",
             "意外的好运",
-            "兼收并蓄的"
+            "兼收并蓄的",
+            "（人生的）变迁；兴衰"
           ],
-          "ans": 1,
+          "ans": 0,
           "trap": false
         },
         {
           "n": 18,
           "w": "vicissitude",
           "pos": "n.",
-          "meaning": "变迁",
+          "meaning": "（人生的）变迁；兴衰",
           "opts": [
-            "短暂的",
             "使模糊",
-            "变迁"
+            "（人生的）变迁；兴衰",
+            "短暂的"
           ],
-          "ans": 2,
+          "ans": 1,
           "trap": false
         },
         {
@@ -1643,9 +1643,9 @@ var VT_DATA = {
           "pos": "adj.",
           "meaning": "无处不在的",
           "opts": [
+            "只有内行才懂的",
             "吝啬的",
-            "变迁",
-            "只有内行才懂的"
+            "（人生的）变迁；兴衰"
           ],
           "ans": -1,
           "trap": true
@@ -1654,11 +1654,11 @@ var VT_DATA = {
           "n": 20,
           "w": "zealous",
           "pos": "adj.",
-          "meaning": "热心的",
+          "meaning": "热心的；狂热的",
           "opts": [
-            "无处不在的",
-            "热心的",
-            "只有内行才懂的"
+            "只有内行才懂的",
+            "热心的；狂热的",
+            "无处不在的"
           ],
           "ans": 1,
           "trap": false
@@ -1667,5 +1667,5 @@ var VT_DATA = {
     }
   ]
 };
-if (typeof window !== "undefined") window.VT_DATA = VT_DATA;
-if (typeof module !== "undefined" && module.exports) module.exports = VT_DATA;
+if (typeof window !== 'undefined') window.VT_DATA = VT_DATA;
+if (typeof module !== 'undefined' && module.exports) module.exports = VT_DATA;
