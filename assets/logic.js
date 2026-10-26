@@ -3,7 +3,7 @@
  * 依赖：无（浏览器挂到 window.VT_LOGIC，Node 用 module.exports）
  * 规则：
  *   - 每级 20 题，答对 1 题 1 分；选错、超时未答 0 分
- *   - 每级答对 >= 16 题“通过”，12–15 题“边缘”，<= 11 题“未过”
+ *   - 每级答对 >= 15 题“通过”，12–14 题“边缘”，<= 11 题“未过”
  *   - 定级：从 A1 起取“连续通过”的最高级
  *   - 词汇量：以各级累计词汇量区间为锚点，用“通过级累计 + 下一级答对数占比 × 该级增量”估算
  * ========================================================================== */
@@ -14,8 +14,8 @@
 })(typeof window !== "undefined" ? window : null, function () {
   "use strict";
 
-  var PASS = 16;        // 每级答对 >=16 通过
-  var EDGE = 12;        // 12–15 边缘
+  var PASS = 15;        // 每级答对 >=15 通过
+  var EDGE = 12;        // 12–14 边缘
   var NONE_INDEX = 3;   // 选项 D：以上都不正确
 
   /** 正确答案在 0–3 中的位置（-1 表示 D「以上都不正确」） */
@@ -231,7 +231,7 @@
     levels.forEach(function (lv, i) {
       var next = levels[i + 1];
       if (!next) {
-        rows.push({ label: lv.code + " " + lv.name, case: "C2 答对 ≥16 题（满级）", range: [lv.cum, lv.cum] });
+        rows.push({ label: lv.code + " " + lv.name, case: "C2 答对 ≥15 题（满级）", range: [lv.cum, lv.cum] });
         return;
       }
       rows.push({
