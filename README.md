@@ -73,7 +73,7 @@ git push -u origin main
 
 ## 数据与依据
 
-- **词条级别**：参考 [Cambridge Dictionary](https://dictionary.cambridge.org/) 单词条目的 CEFR 标注（A1–C2）与 [English Vocabulary Profile (EVP)](https://www.englishprofile.org/english-vocabulary-profile) 的分级词表；中文释义取常用义项，并已按内容审核补全多义词（如 campaign、capacity、sophisticated、vicissitude 等）。
+- **词条级别**：参考 [Cambridge Dictionary](https://dictionary.cambridge.org/) 单词条目的 CEFR 标注（A1–C2）与 [English Vocabulary Profile (EVP)](https://www.englishprofile.org/) 的分级词表；中文释义取常用义项，并已按内容审核补全多义词（如 campaign、capacity、sophisticated、vicissitude 等）。
 - **干扰项**：取同级别其它词的释义，用于快速区分词义；“无正确含义题”的选项不含该词正确释义。需要注意：干扰项与本词语义不相关时，部分题目可通过排除法作答，这是本测试的已知局限。
 - **能力描述**：改写自 [CEFR 官方框架](https://www.coe.int/en/web/common-european-framework-reference-languages) 的等级描述与自评量表。
 - **已知局限**：
